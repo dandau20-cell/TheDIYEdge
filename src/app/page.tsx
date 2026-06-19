@@ -72,16 +72,17 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-primary-dark text-white py-20 px-4">
+      <section className="bg-primary-dark text-white py-16 sm:py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-block bg-primary-accent/20 text-primary-accent text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
             2026 Cost Guides Now Updated
           </div>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-6">
-            Your Home, Your Rules.{' '}
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 text-center mx-auto">
+            Your Home, Your Rules.
+            <br />
             <span className="text-cta">DIY Like a Pro.</span>
           </h1>
-          <p className="text-gray-300 text-lg sm:text-xl max-w-2xl mx-auto mb-10">
+          <p className="text-gray-300 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-10 text-center px-2">
             Honest cost estimates, tested product reviews, and step-by-step guides for every home improvement project. Stop guessing. Start building.
           </p>
           <div className="max-w-md mx-auto">
